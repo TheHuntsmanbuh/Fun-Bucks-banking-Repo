@@ -1,3 +1,5 @@
+![fblogo](https://github.com/TheHuntsmanbuh/funbucksbanking/assets/158553946/677c0846-2eec-4166-9274-f087a04059af)
+
 <h1>FUNBUCKS APPS</h1>
 this is an extremely simple group of apps that all share the same currency, funbucks.
 dont ask why its just funny :)
