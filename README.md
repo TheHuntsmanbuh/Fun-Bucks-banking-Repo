@@ -14,11 +14,11 @@ honestly i havent got much done yet but i will put a checklist for progress in t
 <P>(this is a list of features planned, when a feature is implemented or complete it will have a line through it)</p>
 <p>main portal</p>
 <p>encrypted file containing funbucks balance</p>
-maths game
-guessing game
-funbucks "other game"
-purchaseable backgrounds from a shop app 
-shopp app to use funbucks
-wallet app for gazing upon your glorious funbucks
-a way to invest funbucks in (FAKE) stocks that go down and up over time
-make the ui pretty
+<p>maths game</p>
+<p>guessing game</p>
+<p>funbucks "other game"</p>
+<p>purchaseable backgrounds from a shop app </p>
+<p>shopp app to use funbucks</p>
+<p>wallet app for gazing upon your glorious funbucks</p>
+<p>a way to invest funbucks in (FAKE) stocks that go down and up over time</p>
+<p>make the ui pretty</p>
