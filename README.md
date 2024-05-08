@@ -4,6 +4,9 @@ dont ask why its just funny :)
 ok but realy the reason im making all of this is to test my ability to make an app (or multiple) that share a score and maybe even accounts (big maybe).
 
 <h2>/////STILL-VERY-WORK-IN-PROGRESS\\\\\</h2>
+
+<p>BEFORE GOING ON VERY IMPORTNT</p>
+<p>everything here also requires you pip install PyQt6 and pip install PyQt6-tools (or however you want to install it) please note that these are essential to it working as it uses pyqt for its ui elements :)</p>
 most of this code (when you see it) will be at most <b>days</b> old.
 honestly i havent got much done yet but i will put a checklist for progress in the readme
 
