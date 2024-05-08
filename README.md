@@ -11,9 +11,9 @@ honestly i havent got much done yet but i will put a checklist for progress in t
 
 
 <h1>FEATURES-CROSS-OF-LIST</h1>
-(this is a list of features planned, when a feature is implemented or complete it will have a line through it)
-main portal
-encrypted file containing funbucks balance
+<P>(this is a list of features planned, when a feature is implemented or complete it will have a line through it)</p>
+<p>main portal</p>
+<p>encrypted file containing funbucks balance</p>
 maths game
 guessing game
 funbucks "other game"
