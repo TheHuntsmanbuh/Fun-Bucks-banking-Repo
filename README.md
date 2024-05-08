@@ -11,7 +11,8 @@ ok but realy the reason im making all of this is to test my ability to make an a
 <p>everything here also requires you pip install PyQt6 and pip install PyQt6-tools (or however you want to install it) please note that these are essential to it working as it uses pyqt for its ui elements :)</p>
 most of this code (when you see it) will be at most <b>days</b> old.
 honestly i havent got much done yet but i will put a checklist for progress in the readme
-![scheme](https://github.com/TheHuntsmanbuh/funbucksbanking/assets/158553946/6436ee64-925e-4fb9-a5e3-9481eb191b57)
+![scheme](https://github.com/TheHuntsmanbuh/funbucksbanking/assets/158553946/1792901d-683e-4064-9cae-8e7ca1a5f102)
+
 you can do whatever you want with this project, just either credit me or change it enough to not be recognizeable. 
 
 
