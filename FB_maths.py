@@ -48,9 +48,9 @@ def checkscore():
     global guess
     global ans
     if guess == ans:
-        print(f"you go it right the answer was:{ans}")
+        print(f"you got it right the answer was:{ans}: you have had 10 funbucks added to your wallet")
     elif guess != ans:
-        print(f"your answer was incorrect, the correct answer is:{ans}")
+        print(f"your answer was incorrect, the correct answer is:{ans}: 2 funbucks deducted")
     elif guess == -1:
         global play
         play = 0
