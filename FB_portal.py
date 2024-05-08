@@ -1,6 +1,9 @@
 import os
 import sys
 #pyqt6 imports fr
+
+from PyQt6 import QtWidgets, QtGui
+from PyQt6.QtGui import QIcon, QPixmap
 from PyQt6.QtCore import (
     Qt,
     QSize,
@@ -23,6 +26,10 @@ class MainWindow(QMainWindow):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.setWindowTitle("fun-bucks portal")
+        self.setWindowIcon(QIcon('fbicon.png'))
+        self.acceptDrops()
+
+        fbicon = QPixmap("fbicon.png")
 
         #labels
         welcome = QLabel()
@@ -44,6 +51,7 @@ class MainWindow(QMainWindow):
         fminfo.setWordWrap(True)
         funmathsbutton = QPushButton("play fun-maths!")
         funmaths.addWidget(funmathsbutton)
+        fminfo.setPixmap(fbicon)
         #fungamecontent
         fginfo = QLabel("currently in designing phase")
         fginfo.setWordWrap(True)
