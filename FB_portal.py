@@ -51,14 +51,13 @@ class MainWindow(QMainWindow):
         fminfo.setWordWrap(True)
         funmathsbutton = QPushButton("play fun-maths!")
         funmaths.addWidget(funmathsbutton)
-        fminfo.setPixmap(fbicon)
         #fungamecontent
         fginfo = QLabel("currently in designing phase")
         fginfo.setWordWrap(True)
         fungame.addWidget(fginfo)
         fungamebutton = QPushButton("in-development")
         fungame.addWidget(fungamebutton)
-        #buninfocontent
+        #funinfocontent
         fiinfo = QLabel("fun-bucks is a currency in these suite of apps that can be earned by completing tasks and games. your money will persist through opening and closing the apps so dont be worried about losing progress")
         fiinfo.setWordWrap(True)
         funinfo.addWidget(fiinfo)
