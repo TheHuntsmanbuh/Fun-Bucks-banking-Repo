@@ -3,8 +3,9 @@ import random
 ans = 0
 play = 1
 guess = 0
-def instructions():
+def instructions(): 
     print("guess the answer right to win (-1 = menu) ")
+
 def gameplay():
     mode = input("enter mode, hard/medium/easy:")
     if mode == "hard":
@@ -19,7 +20,7 @@ def gameplay():
         while play == 1:
             newproblemeasy()
             checkscore()
-        
+
 def newproblemhard():
     global guess
     global ans
@@ -28,6 +29,7 @@ def newproblemhard():
     ans = FN * SN
     guess = input(f"{FN} * {SN} =")
     guess = (int(guess))
+
 def newproblemmedium():
     global guess
     global ans
@@ -36,6 +38,7 @@ def newproblemmedium():
     ans = FN * SN
     guess = input(f"{FN} * {SN} =")
     guess = (int(guess))
+
 def newproblemeasy():
     global guess
     global ans
@@ -44,6 +47,7 @@ def newproblemeasy():
     ans = FN * SN
     guess = input(f"{FN} * {SN} =")
     guess = (int(guess))
+
 def checkscore():
     global guess
     global ans
@@ -55,6 +59,7 @@ def checkscore():
         global play
         play = 0
         menu()
+
 def menu():
     print("-1 to quit game")
 

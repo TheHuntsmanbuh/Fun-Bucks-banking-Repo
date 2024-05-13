@@ -86,7 +86,7 @@ class MainWindow(QMainWindow):
     def initfunguess(self):
         print("opened fun-guesser")
     def initfunmaths(self):
-        os.system(f"python C:\\Users\\lachl\\Documents\\python\\funbucksbanking\\FB_maths.py")
+        os.system(f"python FB_maths.py")
         print("opened fun-maths")
     def initfuninfo(self):
         print("opened info")
