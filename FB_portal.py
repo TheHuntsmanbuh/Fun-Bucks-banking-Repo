@@ -3,7 +3,7 @@ import sys
 #pyqt6 imports fr
 
 from PyQt6 import QtWidgets, QtGui
-from PyQt6.QtGui import QIcon, QPixmap
+from PyQt6.QtGui import QIcon, QPixmap, QPalette, QColor
 from PyQt6.QtCore import (
     Qt,
     QSize,
@@ -71,12 +71,16 @@ class MainWindow(QMainWindow):
         funinfo.addWidget(fiinfo)
         findoutmorebutton = QPushButton("find out more!")
         funinfo.addWidget(findoutmorebutton)
+       
         #mainlayout
         toprow = QHBoxLayout()
         toprow.addLayout(funguess)
         toprow.addLayout(funmaths)
         toprow.addLayout(fungame)
         toprow.addLayout(funinfo)
+        #mainlayoutformatting
+        funguess.setContentsMargins(0,0,0,0)
+        funguess.setSpacing(20)
 
 
         #buttonlogic
