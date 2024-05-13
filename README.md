@@ -6,7 +6,9 @@ this is an extremely simple group of apps that all share the same currency, funb
 dont ask why its just funny :)
 ok but realy the reason im making all of this is to test my ability to make an app (or multiple) that share a score and maybe even accounts (big maybe).
 <p>logo \/</p>
-![fblogo](https://github.com/TheHuntsmanbuh/Fun-Bucks-banking-Repo/assets/158553946/92060fe3-39d3-43a7-b924-b9606cd2c2f8)
+
+![fblogo](https://github.com/TheHuntsmanbuh/Fun-Bucks-banking-Repo/assets/158553946/c42f29ce-7b46-45eb-bfc7-b9ad44a34ba7)
+
 
 <h2>/////STILL-VERY-WORK-IN-PROGRESS\\\\\</h2>
 
