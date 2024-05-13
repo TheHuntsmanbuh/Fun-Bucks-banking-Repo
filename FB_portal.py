@@ -28,8 +28,15 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("fun-bucks portal")
         self.setWindowIcon(QIcon('fbicon.png'))
         self.acceptDrops()
-
+        
+        def getfbcount():
+            global line
+            file = open("fb_money.txt", "r") #gets initial value from wallet
+            for line in file.readlines():
+                line = (line)
+        getfbcount()
         fbicon = QPixmap("fbicon.png")
+        fbcount = QLabel(f"{line} <-- your funbucks balance")
 
         #labels
         welcome = QLabel()
@@ -58,6 +65,7 @@ class MainWindow(QMainWindow):
         fungamebutton = QPushButton("in-development")
         fungame.addWidget(fungamebutton)
         #funinfocontent
+        funinfo.addWidget(fbcount)
         fiinfo = QLabel("fun-bucks is a currency in these suite of apps that can be earned by completing tasks and games. your money will persist through opening and closing the apps so dont be worried about losing progress")
         fiinfo.setWordWrap(True)
         funinfo.addWidget(fiinfo)
@@ -89,6 +97,7 @@ class MainWindow(QMainWindow):
         print("opened fun-maths")
     def initfuninfo(self):
         print("opened info")
+   
 
 
 app = QApplication(sys.argv)

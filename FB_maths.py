@@ -3,6 +3,33 @@ import random
 ans = 0
 play = 1
 guess = 0
+
+def winfb():
+    file = open("fb_money.txt", "r") #gets initial value from wallet
+    for line1 in file.readlines():
+        fbs = (line1)
+        fbs = int(fbs)
+    file.close()
+            
+    file = open("fb_money.txt", "w") #converts and writes to the text document 
+    fbs = fbs + 10
+    fbs = str(fbs)
+    file.write(fbs)
+    file.close() #wallet update closed
+
+def loosefb():
+    file = open("fb_money.txt", "r") #gets initial value from wallet
+    for line1 in file.readlines():
+        fbs = (line1)
+        fbs = int(fbs)
+    file.close()
+            
+    file = open("fb_money.txt", "w") #converts and writes to the text document 
+    fbs = fbs - 2
+    fbs = str(fbs)
+    file.write(fbs)
+    file.close() #wallet update closed
+
 def instructions(): 
     print("guess the answer right to win (-1 = menu) ")
 
@@ -53,8 +80,10 @@ def checkscore():
     global ans
     if guess == ans:
         print(f"you got it right the answer was:{ans}: you have had 10 funbucks added to your wallet")
+        winfb()
     elif guess != ans:
         print(f"your answer was incorrect, the correct answer is:{ans}: 2 funbucks deducted")
+        loosefb()
     elif guess == -1:
         global play
         play = 0
