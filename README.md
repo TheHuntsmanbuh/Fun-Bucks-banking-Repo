@@ -24,10 +24,10 @@ you can do whatever you want with this project, just either credit me or change 
 
 
 <h1>FEATURES-CROSS-OF-LIST</h1>
-<P>(this is a list of features planned, when a feature is implemented or complete it will be marked in yellow)</p>
-<p>main portal</p>
+<P>(this is a list of features planned, when a feature is implemented or complete it will have a line through it)</p>
+<p><del>main portal</del></p>
 <p>encrypted file containing funbucks balance</p>
-<p>maths game</p>
+<p><del>maths game</del></p>
 <p>guessing game</p>
 <p>funbucks "other game"</p>
 <p>purchaseable backgrounds from a shop app </p>
