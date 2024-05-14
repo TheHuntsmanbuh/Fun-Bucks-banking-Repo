@@ -25,7 +25,7 @@ you can do whatever you want with this project, just either credit me or change 
 
 <h1>FEATURES-CROSS-OF-LIST</h1>
 <P>(this is a list of features planned, when a feature is implemented or complete it will be marked in yellow)</p>
-<p><mark>main portal</mark></p>
+<p>main portal</p>
 <p>encrypted file containing funbucks balance</p>
 <p>maths game</p>
 <p>guessing game</p>
