@@ -59,10 +59,10 @@ class MainWindow(QMainWindow):
         funmathsbutton = QPushButton("play fun-maths!")
         funmaths.addWidget(funmathsbutton)
         #fungamecontent
-        fginfo = QLabel("currently in designing phase")
+        fginfo = QLabel("fun-investor is the official investment app for the funbucks bank! invest in stocks and withdraw with no fees")
         fginfo.setWordWrap(True)
         fungame.addWidget(fginfo)
-        fungamebutton = QPushButton("in-development")
+        fungamebutton = QPushButton("fun-investor")
         fungame.addWidget(fungamebutton)
         #funinfocontent
         funinfo.addWidget(fbcount)
@@ -71,7 +71,7 @@ class MainWindow(QMainWindow):
         funinfo.addWidget(fiinfo)
         findoutmorebutton = QPushButton("find out more!")
         funinfo.addWidget(findoutmorebutton)
-       
+        
         #mainlayout
         toprow = QHBoxLayout()
         toprow.addLayout(funguess)
@@ -87,13 +87,16 @@ class MainWindow(QMainWindow):
         funguesserbutton.clicked.connect(self.initfunguess)
         funmathsbutton.clicked.connect(self.initfunmaths)
         findoutmorebutton.clicked.connect(self.initfuninfo)
+        fungamebutton.clicked.connect(self.initfungames)
 
 
         
         widget = QWidget()
         widget.setLayout(toprow)
         self.setCentralWidget(widget)
-
+    def initfungames(self):
+        os.system(f"python FB_investor.py")
+        print("opened fun-investor")
     def initfunguess(self):
         print("opened fun-guesser")
     def initfunmaths(self):
