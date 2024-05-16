@@ -19,7 +19,7 @@ honestly i havent got much done yet but i will put a checklist for progress in t
 
 ![scheme](https://github.com/TheHuntsmanbuh/funbucksbanking/assets/158553946/61de4e5a-ebd8-4759-9022-798c5683c80b)
 
-you can do whatever you want with this project, just either credit me or change it enough to not be recognizeable. 
+you can do whatever you want with this project, just either credit me or change it enough to not be recognizable. 
 
 
 
