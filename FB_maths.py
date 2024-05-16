@@ -4,6 +4,8 @@ ans = 0
 play = 1
 guess = 0
 
+instructions()
+
 def winfbeasy():
     file = open("fb_money.txt", "r") #gets initial value from wallet
     for line1 in file.readlines():
@@ -86,7 +88,7 @@ def instructions():
     print("guess the answer right to win (-1 = menu) ")
 
 def gameplay():
-    mode = input("enter mode, hard/medium/easy:")
+    mode = input("enter mode, hard/medium/easy: ")
     if mode == "hard":
         while play == 1:
             newproblemhard()
@@ -106,7 +108,7 @@ def newproblemhard():
     FN = random.randint(6,20)
     SN = random.randint(6,20)
     ans = FN * SN
-    guess = input(f"{FN} * {SN} =")
+    guess = input(f"{FN} * {SN} = ")
     guess = (int(guess))
 
 def newproblemmedium():
@@ -115,7 +117,7 @@ def newproblemmedium():
     FN = random.randint(3,12)
     SN = random.randint(3,12)
     ans = FN * SN
-    guess = input(f"{FN} * {SN} =")
+    guess = input(f"{FN} * {SN} = ")
     guess = (int(guess))
 
 def newproblemeasy():
@@ -124,7 +126,7 @@ def newproblemeasy():
     FN = random.randint(1,5)
     SN = random.randint(1,5)
     ans = FN * SN
-    guess = input(f"{FN} * {SN} =")
+    guess = input(f"{FN} * {SN} = ")
     guess = (int(guess))
 
 def checkscoreasy():

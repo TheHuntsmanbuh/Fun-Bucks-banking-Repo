@@ -45,6 +45,7 @@ class MainWindow(QMainWindow):
         funguess = QVBoxLayout()
         funmaths = QVBoxLayout()
         fungame = QVBoxLayout()
+        funcasino = QVBoxLayout()
         funinfo = QVBoxLayout()
         #funguesscontent
         fginfo = QLabel("fun-guesser is a small minigame. you guess a number between 0 and 10000, guess right and earn funbucks!")
@@ -64,6 +65,12 @@ class MainWindow(QMainWindow):
         fungame.addWidget(fginfo)
         fungamebutton = QPushButton("fun-investor")
         fungame.addWidget(fungamebutton)
+        #funcasinocontent
+        fginfo = QLabel("fun-casino is an app that allows you to develop a chronic gambling addiction and lose all of your money! (or possibly win big)")
+        fginfo.setWordWrap(True)
+        funcasino.addWidget(fginfo)
+        funcasinobutton = QPushButton("enter the fun-casino!")
+        funcasino.addWidget(funcasinobutton)
         #funinfocontent
         funinfo.addWidget(fbcount)
         fiinfo = QLabel("fun-bucks is a currency in these suite of apps that can be earned by completing tasks and games. your money will persist through opening and closing the apps so dont be worried about losing progress")
@@ -77,6 +84,7 @@ class MainWindow(QMainWindow):
         toprow.addLayout(funguess)
         toprow.addLayout(funmaths)
         toprow.addLayout(fungame)
+        toprow.addLayout(funcasino)
         toprow.addLayout(funinfo)
         #mainlayoutformatting
         funguess.setContentsMargins(0,0,0,0)
@@ -88,6 +96,7 @@ class MainWindow(QMainWindow):
         funmathsbutton.clicked.connect(self.initfunmaths)
         findoutmorebutton.clicked.connect(self.initfuninfo)
         fungamebutton.clicked.connect(self.initfungames)
+        funcasinobutton.clicked.connect(self.initfuncasino)
 
 
         
@@ -104,6 +113,9 @@ class MainWindow(QMainWindow):
         print("opened fun-maths")
     def initfuninfo(self):
         print("opened info")
+    def initfuncasino(self):
+        os.system(f"python FB_casino.py")
+        print("opened fun-casino")
    
 
 
