@@ -23,12 +23,12 @@ you can do whatever you want with this project, just either credit me or change 
 
 
 
-<h1>FEATURES-CROSS-OF-LIST</h1>
+<h1>FEATURES-LIST</h1>
 <P>(this is a list of features planned, when a feature is implemented or complete it will have a line through it)</p>
 <p><del>main portal</del></p>
 <p>encrypted file containing funbucks balance</p>
 <p><del>maths game</del></p>
-<p>guessing game</p>
+<p><del>guessing game</del></p>
 <p>funbucks "other game"</p>
 <p>purchaseable backgrounds from a shop app </p>
 <p>shopp app to use funbucks</p>
